@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color:white;
+    color: black;
+}
+
+
+
+
+
+
+#hero * {
+    margin-bottom:20px;
+}
+
+#hero img {
+    width: 40%;
+    max-height: auto;
+    object-fit: cover;
+    text-align: center;}
+
+#about h2{
+    margin-bottom: 20px;
+}
+#about p{
+    margin-bottom: 40px;
+}
+
+#mission  h2{
+    margin-bottom: 20px;
+}
+#mission  p{
+    margin-bottom: 10px;
+}
+#mission  ol{
+    margin-bottom: 40px;
+}
+
+
+
+#events *{
+    margin-bottom: 20px;
+}
+#events a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+#events a:hover{
+    background: #0056b3;
+}
+
+.cte{
+    display:grid;
+    grid-template-columns: 700px 500px;
+
+}
+
+
+body{
+    
+    font-family: "Poppins", system-ui;
+    background-color:white;
+    color: black;
+      
+    }
+    
+
+
+
+
+
+
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    padding:30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.navbar-links{
+    display:flex;
+    column-gap: 20px;
+    
+}
+.navbar-links a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar-links a:hover{
+    text-decoration: underline;
+    color: #007BFF;
+    
+}
+
+.navbar-menu-toggle{
+    display:none
+}
+
+.side-navbar{
+    background-color: white;
+    width:50%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    padding:20px;
+    color:black;
+    
+    transition: 2s;
+
+
+}
+
+.side-navbar-link{
+    margin-bottom:20px;
+    
+
+}
+
+.side-navbar-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.side-navbar-links a:hover{
+    text-decoration: underline;
+    color:#007BFF
+    
+}
+
+@media screen and (max-width:750px){
+    .navbar-menu-toggle{
+    display:block;}
+    .navbar-links{
+        display: none;
+    }
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#contact *{
+    margin-top: 10px;
+}
+
+.social-media *{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.social-media a:hover{
+    background: #007BFF;
+    border-radius: 5px;
+    
+    
+}
+
+
